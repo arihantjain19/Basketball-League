@@ -1,2 +1,40 @@
-# Basketball-League
-Basketball League is a 2D basketball game offers you to play against with computer in a fast-paced match. Using simple arrow key controls (left/right to move, up to shoot), you'll compete on a virtual court complete with physics-based ball movement, responsive hoops with net animations, and a timed two-minute match. This game features intelligent AI behavior that switches between defensive positioning and offensive attacks, realistic ball physics with gravity and friction effects, and dynamic score tracking. To play, simply visit https://arihantjain19.github.io/Basketball-League/ where the game runs directly in your browser with no installation required. Built entirely with vanilla HTML, CSS, and JavaScript,this game uses an efficient requestAnimationFrame loop for smooth animations and implements collision detection for realistic ball interactions. The AI system calculates predictive movement based on ball trajectory while maintaining balanced gameplay.Key technical aspects include a simplified physics engine handling velocity and bounce effects, responsive design using viewport units that adapt to different screen sizes, and optimized DOM updates for performance. The court background requires a basketballcourt.jpg image file, but otherwise has no external dependencies. Potential future enhancements could include sound effects, difficulty levels, or multiplayer support, but the current version offers a complete, polished single-player experience with a clean visual design and intuitive controls. After each match, players receive a summary screen with their results and the option to restart.
+# Basketball League - A 2D Basketball Game
+
+## Gameplay Features
+- Fast-paced 2D basketball game against an AI opponent.  
+- Simple controls:  
+  - Left/Right arrow keys to move.  
+  - Up arrow key to shoot.  
+- Two-minute timed matches.  
+- Realistic physics-based ball movement.  
+- Responsive hoops with net animations.  
+
+## AI & Physics Mechanics
+- Intelligent AI that switches between defensive and offensive strategies.  
+- Realistic ball physics, incorporating gravity and friction effects.  
+- Predictive AI movement based on ball trajectory for balanced gameplay.  
+
+## Technical Details
+- Developed using **vanilla HTML, CSS, and JavaScript**.  
+- Uses `requestAnimationFrame` for smooth animations.  
+- Collision detection for realistic ball interactions.  
+- Simplified physics engine for velocity and bounce effects.  
+- Responsive design using **viewport units** for adaptability to different screen sizes.  
+- Optimized DOM updates for performance.  
+
+## Game Accessibility
+- Play directly in the browser—no installation required.  
+- Available at: [Basketball League](https://arihantjain19.github.io/Basketball-League/)  
+
+## Visual Requirements
+- The game requires a `basketballcourt.jpg` background image.  
+- Otherwise, it has no external dependencies.  
+
+## Future Enhancements (Possible Additions)
+- Sound effects.  
+- Difficulty levels.  
+- Multiplayer mode.  
+
+## Post-Match Summary
+- Players receive a results screen after each match.  
+- Option to restart the game.  

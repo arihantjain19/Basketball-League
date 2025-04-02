@@ -1,0 +1,40 @@
+body {
+  background-color: darkblue;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0; /* Keep it at the lowest layer */
+}
+
+h1 {
+  background: rgba(0, 0, 0, 0.5);
+  color: floralwhite;
+  width: fit-content;
+  padding: 20px;
+  font-size: 60px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.button-container {
+  margin-top: 20px; /* Space between title and button */
+  z-index: 2;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+

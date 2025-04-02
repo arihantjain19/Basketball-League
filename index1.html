@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball League</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="info-bar">
+            <div class="score-box user-score">
+                <div class="team-name">YOU</div>
+                <div class="score-value">0</div>
+            </div>
+            <div class="timer-box">
+                <div class="time">02:00</div>
+            </div>
+            <div class="score-box ai-score">
+                <div class="team-name">COMPUTER</div>
+                <div class="score-value">0</div>
+            </div>
+        </div>
+        <div class="court">
+            <div class="court-floor"></div>
+            <div class="hoop left-hoop">
+                <div class="backboard"></div>
+                <div class="support"></div>
+                <div class="rim"></div>
+                <div class="net"></div>
+            </div>
+            <div class="hoop right-hoop">
+                <div class="backboard"></div>
+                <div class="support"></div>
+                <div class="rim"></div>
+                <div class="net"></div>
+            </div>
+            <div class="ball"></div>
+            <div class="player user-player"></div>
+            <div class="player ai-player"></div>
+            <div class="message"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

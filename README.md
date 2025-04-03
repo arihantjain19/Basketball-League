@@ -27,7 +27,7 @@
 - Available at: [Basketball League](https://arihantjain19.github.io/Basketball-League/)  
 
 ## Visual Requirements
-- The game requires a `basketballcourt.jpg` background image.  
+- The game requires `home.mp4` as background video for the home page and `basketballcourt.jpg` background image for the game page.  
 - Otherwise, it has no external dependencies.  
 
 ## Future Enhancements (Possible Additions)
